@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publish", "publish-subscribe\publish.csproj", "{44112A84-8BAC-4D92-A85A-B81DEAE07607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "publish", "publish-subscribe\publish.csproj", "{44112A84-8BAC-4D92-A85A-B81DEAE07607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{CC6AA8EF-26B1-451E-8F18-3A4E3B000910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{CC6AA8EF-26B1-451E-8F18-3A4E3B000910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingEmit", "RoutingEmit\RoutingEmit.csproj", "{AC4E24F3-97DB-40BB-8DD7-DD64023BB1B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topicemit", "topicemit\topicemit.csproj", "{60AFE88B-DCA6-41EF-A7BB-60C64E157511}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routingreceive", "Routingreceive\Routingreceive.csproj", "{4B2AE4A2-1FA7-4BCB-B203-14A74D2CB559}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "topicreceivelog", "topicreceivelog\topicreceivelog.csproj", "{67564889-8983-4710-855C-7E0FF857B433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{CC6AA8EF-26B1-451E-8F18-3A4E3B000910}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC6AA8EF-26B1-451E-8F18-3A4E3B000910}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC6AA8EF-26B1-451E-8F18-3A4E3B000910}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC4E24F3-97DB-40BB-8DD7-DD64023BB1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC4E24F3-97DB-40BB-8DD7-DD64023BB1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC4E24F3-97DB-40BB-8DD7-DD64023BB1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC4E24F3-97DB-40BB-8DD7-DD64023BB1B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B2AE4A2-1FA7-4BCB-B203-14A74D2CB559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B2AE4A2-1FA7-4BCB-B203-14A74D2CB559}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B2AE4A2-1FA7-4BCB-B203-14A74D2CB559}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B2AE4A2-1FA7-4BCB-B203-14A74D2CB559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AFE88B-DCA6-41EF-A7BB-60C64E157511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AFE88B-DCA6-41EF-A7BB-60C64E157511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AFE88B-DCA6-41EF-A7BB-60C64E157511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AFE88B-DCA6-41EF-A7BB-60C64E157511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67564889-8983-4710-855C-7E0FF857B433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67564889-8983-4710-855C-7E0FF857B433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67564889-8983-4710-855C-7E0FF857B433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67564889-8983-4710-855C-7E0FF857B433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
